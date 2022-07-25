@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+html, body  {
+   height: 100vh;
+   font-size: 15px;
+   
+   
+    
+}
+
+
+
+.container {
+    background-image: url(img/1.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 7%;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+    
+    
+    
+}
+
+.social-article {
+    max-height: 50%;
+    width: 90%;
+    
+    min-width: 300px;
+    padding: 20px 50px 20px 50px ;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(240,204,68,0.75);
+    box-shadow: 0px 0px 40px 0px rgba(240,204,68,0.75);
+    border-radius: 10px;
+    margin-bottom: 70px;
+    
+    
+    
+}
+
+.social-article .container-links .ul-links {
+    display:flex;
+    justify-content: space-around;
+    
+    
+    
+    
+}
+
+.social-article .container-links .ul-links li {
+    list-style: none;
+    max-width: fit-content;
+    padding: 7px;
+    margin-bottom: 50px;
+    
+}
+
+.social-article .container-links .ul-links li:hover {
+    border-bottom: 1px solid rgba(240,204,68);
+    transition: all 0.5s;
+    border-radius: 8%;
+    
+}
+
+
+
+
+.social-article .container-links .ul-links li .social-img {
+    width: 40px;
+    margin-top: 20px;
+    border: 1px solid rgba(240,204,68,0.75);
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px rgba(240,204,68,0.75);
+    width: 60px;
+}
+
+.social-article .container-btns {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    justify-content: center;
+    
+}
+
+.social-article .container-btns .ul-btns .btns {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(240,204,68,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(240,204,68,0.75);
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 7px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    cursor: pointer;
+    list-style: none;
+}
+
+.social-article .container-btns .ul-btns .btns:hover {
+    color: white;
+    background-color:rgba(240,204,68,0.75) ;
+    transition: all ease 0.8s;
+    text-decoration: underline;
+    
+}
+
+.social-article .container-btns .ul-btns .btns a {
+    text-decoration: none;
+    color:  rgba(240,204,68,0.75);
+    display: flex;
+    justify-content: center;
+}
+
+
+
